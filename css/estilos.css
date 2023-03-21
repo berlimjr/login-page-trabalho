@@ -133,7 +133,7 @@
 
 
 
-h1 {
+#subtitle1 {
     font-size: 76px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #053361;
@@ -166,5 +166,21 @@ h1 {
     background-color: #ffd900;
 
 }
+#img-feed {
+    border: 2px solid white;
+    width: 35px;
+    position: absolute;
+    right: 1px;    
+}
 
-
+#msg-icon {
+    position: absolute;
+    width: 50px;
+    right: 45px;
+    bottom: 10px;
+    background-color: #1873cf;
+    padding: 11px 6px 11px 6px;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+}
