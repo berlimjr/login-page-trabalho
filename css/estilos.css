@@ -15,6 +15,7 @@
     width: 100%;
     background-image: url("../imagens/lycg-xl.jpg");
     background-size: cover;
+    z-index: -1;
 }
 .header {
     display: flex;
@@ -167,17 +168,15 @@
 
 }
 #img-feed {
-    border: 2px solid white;
-    width: 35px;
     position: fixed;
-    right: 1px;    
+    bottom: 100px;
+    right: 0;    
 }
 
 #msg-icon {
-    position: absolute;
-    width: 50px;
-    right: 45px;
+    position: fixed;
     bottom: 10px;
+    right: 40px; 
     background-color: #1873cf;
     padding: 11px 6px 11px 6px;
     border-radius: 150px;
